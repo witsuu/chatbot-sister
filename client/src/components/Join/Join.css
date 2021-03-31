@@ -1,0 +1,36 @@
+.JoinContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.join-card {
+  padding: 20px !important;
+}
+
+.heading {
+  margin: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card input {
+  padding: 8px 13px;
+  border-radius: 5px;
+  border: 1px solid rgb(151, 151, 151);
+  margin-bottom: 1rem;
+  width: 250px;
+}
+.card button {
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(48, 80, 187);
+  color: #fff;
+  padding: 5px 10px;
+}

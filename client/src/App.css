@@ -1,0 +1,11 @@
+body {
+  max-height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #4f78b7,
+    #3a6ebf,
+    #2462c6,
+    #0a56cc,
+    #0048cf
+  );
+}
