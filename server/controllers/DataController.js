@@ -18,7 +18,7 @@ const getDestinations = async (id) => {
     const kategoriId = kategori[id]._id;
 
     const destinations = await axios.get(
-      `https://wisata-api.herokuapp.com/categories/${kategoriId}`
+      `https://admin-wisata-api.herokuapp.com/categories/${kategoriId}`
     );
 
     return destinations.data.destinations;
@@ -32,7 +32,7 @@ const getInfoDestiny = async ({ id, currentMessage }) => {
     const destinations = await getDestinations(currentMessage);
     const destinyId = destinations[id]._id;
     const destiny = await axios.get(
-      `https://wisata-api.herokuapp.com/destination/${destinyId}`
+      `https://admin-wisata-api.herokuapp.com/destination/${destinyId}`
     );
 
     return destiny.data;
